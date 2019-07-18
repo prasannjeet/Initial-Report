@@ -34,6 +34,10 @@
 \usepackage{enumitem} %for customising bullet point format (in RQ1, RQ2, etc.)
 \usepackage{booktabs} %for using tables in the section time plan
 \usepackage{tabularx} %for auto fitting the tables
+\usepackage{graphicx} %for table and booktabs
+\usepackage[normalem]{ulem} %for table a sample event log, not sure where is it used
+\usepackage{subcaption} %for subcaptions in figure a figure b type figures
+\useunder{\uline}{\ul}{} %for the table by tablesgenerator.com
 
 %----------------------------------------------------------------------------------------
 %	Other Settings
@@ -87,7 +91,7 @@
 		\end{abstract}
 		
 		\begin{keyword}
-			resilience, dependability, fault-tolerance, self-healing, self-repair, diagnostics, prognostics, event correlation, log analytics, embedded systems, cyber-physical systems, Internet of Things
+			self-healing, self-repair, diagnostics, event correlation, log analytics, cyber-physical systems, Internet of Things, process mining, petri-net
 		\end{keyword}
 		
 	\end{frontmatter}
@@ -134,7 +138,7 @@
 	%----------------------------------------------------------------------------------------
 	%	Bibilography
 	%----------------------------------------------------------------------------------------
-	\bibliographystyle{abbrv}
+	\bibliographystyle{elsarticle-num}
 	\bibliography{references}
 	%\renewcommand*{\UrlFont}{\rmfamily} %Prints URL in normal font
 	%\printbibliography

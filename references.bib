@@ -1,353 +1,738 @@
-@incollection{Khakpour2018,
-abstract = {In this paper, we propose a new sound method to synthesize a permissive monitor using boolean supervisory controller synthesis that observes a Java program at certain checkpoints, predicts information flow violations and applies suitable countermeasures to prevent violations. To improve the permissiveness, we train the monitor and remove false pos- itives by executing the program along with its executable model. If a security violation is detected, the user can define sound countermeasures, including declassification to apply in the checkpoints. We implement a tool that automates the whole process and generates a monitor. We eval- uate our method by applying it on the Droidbench benchmark and one real-life Android application. 1},
-author = {Khakpour, Narges and Skandylas, Charilaos},
-booktitle = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},
-doi = {10.1007/978-3-319-99073-6_3},
-file = {:C$\backslash$:/Users/prasa.DESKTOP-L7LFCK6/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Khakpour, Skandylas - 2018 - Synthesis of a Permissive Security Monitor.pdf:pdf},
-isbn = {9783319990729},
-issn = {16113349},
-month = {09},
-pages = {48--65},
-publisher = {Springer, Cham},
-title = {{Synthesis of a permissive security monitor}},
-%url = {http://link.springer.com/10.1007/978-3-319-99073-6{\_}3},
-volume = {11098 LNCS},
-year = {2018}
+@misc{Vivint.com,
+	author = {Vivint.com},
+	keywords = {IoT},
+	mendeley-groups = {Sigma},
+	mendeley-tags = {IoT},
+	title = {{Home Automation Systems and Smart Home Devices | Vivint}},
+	url = {https://www.vivint.com/packages/home-automation},
+	urldate = {2018-06-16}
 }
 
-@article{Alpernas2018,
-abstract = {The rise of serverless computing provides an opportunity to rethink cloud security. We present an approach for securing serverless systems using a novel form of dynamic information flow control (IFC). We show that in serverless applications, the termination channel found in most existing IFC systems can be arbitrarily amplified via multiple concurrent requests, necessitating a stronger termination-sensitive non-interference guarantee, which we achieve using a combination of static labeling of serverless processes and dynamic faceted labeling of persistent data. We describe our implementation of this approach on top of JavaScript for AWS Lambda and OpenWhisk serverless platforms, and present three realistic case studies showing that it can enforce important IFC security properties with low overhead.},
-archivePrefix = {arXiv},
-arxivId = {1802.08984},
-author = {Alpernas, Kalev and Flanagan, Cormac and Fouladi, Sadjad and Ryzhyk, Leonid and Sagiv, Mooly and Schmitz, Thomas and Winstein, Keith},
-eprint = {1802.08984},
-file = {:C$\backslash$:/Users/prasa.DESKTOP-L7LFCK6/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Alpernas et al. - 2018 - Secure Serverless Computing Using Dynamic Information Flow Control.pdf:pdf},
-month = {02},
-title = {{Secure Serverless Computing Using Dynamic Information Flow Control}},
-%url = {http://arxiv.org/abs/1802.08984},
-year = {2018}
-}
-
-@InProceedings{Askarov2008,
-	author="Askarov, Aslan
-	and Hunt, Sebastian
-	and Sabelfeld, Andrei
-	and Sands, David",
-	editor="Jajodia, Sushil
-	and Lopez, Javier",
-	title="Termination-Insensitive Noninterference Leaks More Than Just a Bit",
-	booktitle="Computer Security - ESORICS 2008",
-	year="2008",
-	publisher="Springer Berlin Heidelberg",
-	address="Berlin, Heidelberg",
-	pages="333--348",
-	doi = {10.1007/978-3-540-88313-5_22},
-%	url = {http://link.springer.com/10.1007/978-3-540-88313-5_22},
-	abstract="Current tools for analysing information flow in programs build upon ideas going back to Denning's work from the 70's. These systems enforce an imperfect notion of information flow which has become known as termination-insensitive noninterference. Under this version of noninterference, information leaks are permitted if they are transmitted purely by the program's termination behaviour (i.e., whether it terminates or not). This imperfection is the price to pay for having a security condition which is relatively liberal (e.g. allowing while-loops whose termination may depend on the value of a secret) and easy to check. But what is the price exactly? We argue that, in the presence of output, the price is higher than the ``one bit'' often claimed informally in the literature, and effectively such programs can leak all of their secrets. In this paper we develop a definition of termination-insensitive noninterference suitable for reasoning about programs with outputs. We show that the definition generalises ``batch-job'' style definitions from the literature and that it is indeed satisfied by a Denning-style program analysis with output. Although more than a bit of information can be leaked by programs satisfying this condition, we show that the best an attacker can do is a brute-force attack, which means that the attacker cannot reliably (in a technical sense) learn the secret in polynomial time in the size of the secret. If we further assume that secrets are uniformly distributed, we show that the advantage the attacker gains when guessing the secret after observing a polynomial amount of output is negligible in the size of the secret.",
-	isbn="978-3-540-88313-5"
+@techreport{LopezResearch2013,
+	author = {{Lopez Research}},
+	keywords = {IoT},
+	mendeley-groups = {Sigma/IoT},
+	mendeley-tags = {IoT},
+	title = {{An Introduction to the Internet of Things (IoT)}},
+	url = {https://www.cisco.com/c/dam/en_us/solutions/trends/iot/introduction_to_IoT_november.pdf},
+	year = {2013}
 }
 
 
-@misc{GoogleTrends2019,
-	author = {{Google Trends}},
-	mendeley-groups = {Background},
-	title = {{Popularity of the keyword Serverless}},
-	url = {https://trends.google.com/trends/explore?date=all{\&}q=serverless},
-	urldate = {2019-02-11},
-	year = {2019}
-}
-
-@misc{Christner2017,
-	author = {Christner, Brian},
-	booktitle = {Swisscom},
-	file = {:D$\backslash$:/OneDrivePs222vt/OneDrive - student.lnu.se/Studies/04 Semester/Master's Thesis/serverless-170406063841.pdf:pdf},
-	mendeley-groups = {Background},
-	title = {{Docker Serverless}},
-	url = {https://pt.slideshare.net/BrianChristner/docker-serverless?from{\_}action=save},
-	urldate = {2019-02-11},
+@techreport{Pelino2017,
+	author = {Pelino, Michele and Hammond, Jeffrey S and Dai, Charlie and Miller, Paul and Belissent, Jennifer and Ask, Julie A and Fenwick, Nigel and Gillett, Frank E and Husson, Thomas and Maxim, Merritt and Voce, Christopher and Garberg, Clare and Lynch, Diane},
+	institution = {Forrester},
+	mendeley-groups = {Sigma/IoT},
+	title = {{Predictions 2018: IoT Moves From Experimentation To Business Scale}},
+	url = {https://www.forrester.com/report/Predictions+2018+IoT+Moves+From+Experimentation+To+Business+Scale/-/E-RES139752},
 	year = {2017}
 }
 
-@techreport{Segal2018,
-	abstract = {The "Serverless architectures Security Top 10" document is meant to serve as a security awareness and education guide. The document is curated and maintained by top industry practitioners and security researchers with vast experience in application security, cloud and serverless architectures. As many organizations are still exploring serverless architectures, or just making their first steps in the serverless world, we believe that this guide is critical for their success in building robust, secure and reliable applications. We urge all organizations to adopt this document and use it during the process of designing, developing and testing serverless applications in order to minimize security risks. This document will be maintained and enhanced periodically based on input from the community, as well as research and analysis of the most common serverless architecture risks. Lastly, it should be stressed that this document enumerates what are believed to be the current top risks, specific to serverless architectures. Readers are encouraged to always follow secure software design and development best practices.},
-	author = {Segal, Ory; Zin Shaked; Shulman Avi},
-	file = {::},
-	institution = {Puresec},
-	mendeley-groups = {Background},
-	title = {{The Ten Most Critical Security Risks in Serverless Architectures}},
+@article{Al-fuqaha2015,
+	archivePrefix = {arXiv},
+	arxivId = {jjj},
+	author = {Al-fuqaha, Ala and Member, Senior and Guizani, Mohsen and Mohammadi, Mehdi and Member, Student},
+	number = {4},
+	pages = {2347--2376},
+	title = {{Internet of Things : A Survey on Enabling}},
+	url = {http://ieeexplore.ieee.org.proxy.queensu.ca/document/7123563/},
+	volume = {17},
+	year = {2015}
+}
+
+
+
+
+@misc{Symantec,
+	author = {Symantec},
+	mendeley-groups = {Sigma/IoT},
+	title = {{5 Predictions on the future of the Internet of Things}},
+	url = {https://nr.tn/2O9VlxE},
+	urldate = {2018-06-17}
+}
+
+
+@techreport{Bamiduro2018,
+	author = {Bamiduro, Wunmi and van der Meulen, Rob},
+	institution = {Gartner},
+	mendeley-groups = {Sigma/Self Healing},
+	title = {{Worldwide IoT Security Spending Will Reach {\$}1.5 Billion in 2018}},
+	url = {https://www.gartner.com/newsroom/id/3869181},
 	year = {2018}
 }
 
-@misc{Amazon,
-	author = {Amazon},
-	mendeley-groups = {Background},
-	title = {{AWS Lambda – Serverless Compute - Amazon Web Services}},
-	url = {https://aws.amazon.com/lambda/},
-	urldate = {2019-02-11}
+
+@article{Asghar2018,
+	author = {Asghar, Ahmad and Farooq, Hasan and Imran, Ali},
+	doi = {10.1109/COMST.2018.2825786},
+	issn = {1553-877X},
+	journal = {IEEE Communications Surveys {\&} Tutorials},
+	number = {c},
+	pages = {1--1},
+	title = {{Self-Healing in Emerging Cellular Networks: Review, Challenges and Research Directions}},
+	url = {http://ieeexplore.ieee.org/document/8335292/},
+	year = {2018}
 }
-@article{PivotalSoftware2017,
-	abstract = {Pivotal combines our cloud-native platform, developer tools, and unique methodology to help the world's largest companies transform the way they build and run their most important applications. Our technology is used by Global 2000 companies to achieve strategic advantages in software development and IT operations.},
-	author = {{Pivotal Software}},
-	mendeley-groups = {Background},
-	month = {jan},
-	publisher = {Pivotal Software, Inc.},
-	title = {{Pivotal Function Service (PFS)}},
-	url = {https://pivotal.io/platform/pivotal-function-service},
+
+
+@article{Chandraratne2017,
+	author = {Chandraratne, Chathurika and Naayagi, R T and Logenthiran, Thillainathan and Background, A},
+	isbn = {9781538649503},
+	keywords = {and this prevents other,circuit breaker to isolate,differential transformer relay,directional protection,overcurrent,protection,relay,self-healing,smart grid,the faulty line,traditional power grid},
+	mendeley-groups = {Sigma/Self Healing,Sigma},
+	pages = {1--6},
+	title = {{Smart Grid Protection through Self-Healing}},
 	year = {2017}
 }
-@misc{IBM,
-	author = {IBM},
-	mendeley-groups = {Background},
-	title = {{IBM Cloud Functions}},
-	url = {https://console.bluemix.net/openwhisk/},
-	urldate = {2019-02-11}
+
+@article{Khalil2018,
+	author = {Khalil, Kasem and Eldash, Omar and Bayoumi, Magdy},
+	isbn = {9781538648810},
+	keywords = {ant,embryonic hardware,evolvable hardware,fault toler-,self-healing},
+	title = {{A Cost-Effective Self-Healing Approach for Reliable Hardware Systems}},
+	year = {2018}
 }
-@misc{Microsoft,
-	author = {Microsoft},
-	mendeley-groups = {Background},
-	title = {{Azure Functions—Serverless Architecture}},
-	url = {https://azure.microsoft.com/en-us/services/functions/},
-	urldate = {2019-02-11}
-}
-@misc{Google,
-	author = {Google},
-	mendeley-groups = {Background},
-	title = {{Cloud Functions - Event-driven Serverless Computing}},
-	url = {https://cloud.google.com/functions/},
-	urldate = {2019-02-11}
-}
-@article{Hedin2011,
-	author = {Hedin, Daniel and Hedin, Daniel and Sabelfeld, Andrei},
-	file = {:D$\backslash$:/OneDrivePs222vt/OneDrive - student.lnu.se/Studies/04 Semester/Master's Thesis/10.1.1.437.9981.pdf:pdf},
-	mendeley-groups = {Information Flow Control},
-	doi = {10.1.1.295.9015},
-	title = {{A Perspective on Information-Flow Control}},
-%	url = {http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.295.9015},
+
+@article{Psaier2011,
+	author = {Psaier, Harald and Dustdar, Schahram},
+	doi = {10.1007/s00607-010-0107-y},
+	isbn = {0010-485X},
+	issn = {0010485X},
+	journal = {Computing (Vienna/New York)},
+	keywords = {Autonomic computing,Autonomous behaving systems,Self-,Self-adaptive systems,Self-healing approaches,Self-healing principles,Survey,properties},
+	number = {1},
+	pages = {43--73},
+	title = {{A survey on self-healing systems: Approaches and systems}},
+	volume = {91},
 	year = {2011}
 }
-@article{Denning1976,
-	author = {Denning, Dorothy E. and E., Dorothy},
-	doi = {10.1145/360051.360056},
-%	issn = {00010782},
-	journal = {Communications of the ACM},
-	keywords = {information flow,lattice,program certification,protection,security,security class},
-	mendeley-groups = {Information Flow Control},
-	month = {05},
-	number = {5},
-	pages = {236--243},
-	publisher = {ACM},
-	title = {{A lattice model of secure information flow}},
-%	url = {http://portal.acm.org/citation.cfm?doid=360051.360056},
-	volume = {19},
-	year = {1976}
+
+@article{Hudaib2017,
+	author = {Hudaib, Amjad A. and Fakhouri, Hussam N. and {Al Adwan}, Fatima Eid and Fakhouri, Sandi N.},
+	doi = {10.4236/cn.2017.91004},
+	issn = {1949-2421},
+	journal = {Communications and Network},
+	keywords = {Computer Architecture, Self-Healing Systems, Self-},
+	number = {01},
+	pages = {71--88},
+	title = {{A Survey about Self-Healing Systems (Desktop and Web Application)}},
+	url = {http://www.scirp.org/journal/doi.aspx?DOI=10.4236/cn.2017.91004},
+	volume = {09},
+	year = {2017}
 }
-@article{Sabelfeld2001,
-	author = {Sabelfeld, Andrei and Sands, David},
-	doi = {10.1023/A:1011553200337},
-	file = {::},
-%	issn = {13883690},
-	journal = {Higher-Order and Symbolic Computation},
-	mendeley-groups = {TINI},
-	number = {1},
-	pages = {59--91},
-	publisher = {Kluwer Academic Publishers},
-	title = {{A Per Model of Secure Information Flow in Sequential Programs}},
-%	url = {http://link.springer.com/10.1023/A:1011553200337},
-	volume = {14},
-	year = {2001}
+
+@article{Ghosh2007,
+	author = {Ghosh, Debanjan and Sharman, Raj and {Raghav Rao}, H. and Upadhyaya, Shambhu},
+	doi = {10.1016/j.dss.2006.06.011},
+	isbn = {0167-9236},
+	issn = {01679236},
+	journal = {Decision Support Systems},
+	keywords = {Adaptive systems,Decision support systems,Distributed systems,Fault tolerance,Self-healing,Software architecture,Software engineering designing,Survivable systems},
+	number = {4},
+	pages = {2164--2185},
+	pmid = {513},
+	title = {{Self-healing systems - survey and synthesis}},
+	volume = {42},
+	year = {2007}
 }
-@article{Mettler2014,
-	author = {Mettler, Tobias and Eurich, Markus and Winter, Robert},
-	doi = {10.17705/1CAIS.03410},
-	file = {:D$\backslash$:/OneDrivePs222vt/OneDrive - student.lnu.se/Studies/04 Semester/Master's Thesis/aisel.aisnet.org@caisvol34iss110.pdf:pdf},
-%	issn = {15293181},
-	journal = {Communications of the Association for Information Systems},
-	mendeley-groups = {Design Science},
-	month = {01},
+
+@article{Avizienis2004,
+	author = {Avi{\v{z}}ienis, Algirdas and Laprie, Jean Claude and Randell, Brian and Landwehr, Carl},
+	doi = {10.1109/TDSC.2004.2},
+	isbn = {1545-5971 VO - 1},
+	issn = {15455971},
+	journal = {IEEE Transactions on Dependable and Secure Computing},
+	keywords = {Attacks,Dependability,Errors,Failures,Fault forecasting,Fault removal,Fault tolerance,Faults,Security,Trust,Vulnerabilities},
 	number = {1},
-	title = {{On the Use of Experiments in Design Science Research: A Proposition of an Evaluation Framework}},
-%	url = {https://aisel.aisnet.org/cais/vol34/iss1/10},
-	volume = {34},
+	pages = {11--33},
+	pmid = {1335465},
+	title = {{Basic concepts and taxonomy of dependable and secure computing}},
+	volume = {1},
+	year = {2004}
+}
+
+@article{Cinque2013,
+	author = {Cinque, Marcello and Cotroneo, Domenico and Pecchia, Antonio},
+	doi = {10.1109/TSE.2012.67},
+	isbn = {0098-5589 VO  - 39},
+	issn = {00985589},
+	journal = {IEEE Transactions on Software Engineering},
+	keywords = {Event log,error detection,logging mechanism,rule-based logging,software failures},
+	number = {6},
+	pages = {806--821},
+	title = {{Event logs for the analysis of software failures: A rule-based approach}},
+	volume = {39},
+	year = {2013}
+}
+
+@article{Lipow1982,
+	author = {Lipow, M.},
+	doi = {10.1109/TSE.1982.235579},
+	isbn = {00985589},
+	issn = {00985589},
+	journal = {IEEE Transactions on Software Engineering},
+	keywords = {Fault prediction,fault rate,program complexity,software science},
+	number = {4},
+	pages = {437--439},
+	pmid = {155},
+	title = {{Number of Faults per Line of Code}},
+	volume = {SE-8},
+	year = {1982}
+}
+
+@article{Su2014,
+	author = {Su, Penn H. and Shih, Chi Sheng and Hsu, Jane Yung Jen and Lin, Kwei Jay and Wang, Yu Chung},
+	doi = {10.1109/WF-IoT.2014.6803115},
+	isbn = {978-1-4799-3459-1},
+	journal = {2014 IEEE World Forum on Internet of Things, WF-IoT 2014},
+	pages = {45--50},
+	title = {{Decentralized fault tolerance mechanism for intelligent IoT/M2M middleware}},
 	year = {2014}
 }
-@article{March1995,
-	abstract = {Research in IT must address the design tasks faced by practitioners. Real problems must be properly conceptualized and represented, appropriate techniques for their solution must be constructed, and solutions must be implemented and evaluated using appropriate criteria. If significant progress is to be made, IT research must also develop an understanding of how and why IT systems work or do not work. Such an understanding must tie together natural laws governing IT systems with natural laws governing the environments in which they operate. This paper presents a two dimensional framework for research in information technology. The first dimension is based on broad types of design and natural science research activities: build, evaluate, theorize, and justify. The second dimension is based on broad types of outputs produced by design research: representational constructs, models, methods, and instantiations. We argue that both design science and natural science activities are needed to insure that IT research is both relevant and effective.},
-	author = {March, Salvatore T. and Smith, Gerald F.},
-	doi = {10.1016/0167-9236(94)00041-2},
-	file = {:D$\backslash$:/OneDrivePs222vt/OneDrive - student.lnu.se/Studies/04 Semester/Master's Thesis/march1995.pdf:pdf},
-%	issn = {0167-9236},
-	journal = {Decision Support Systems},
-	mendeley-groups = {Design Science},
-	month = {12},
-	number = {4},
-	pages = {251--266},
-	publisher = {North-Holland},
-	title = {{Design and natural science research on information technology}},
-%	url = {https://www.sciencedirect.com/science/article/pii/0167923694000412},
-	volume = {15},
-	year = {1995}
+
+@misc{Lin2016,
+	author = {Lin, Kwei-Jay and Shih, Daniel and Wang, Yu-Chung and Hsu, Jane and Reijers, Niels and Chou, G.J. and Tsai, B.L.},
+	mendeley-groups = {Fault Prevention},
+	title = {{WuKong - Intelligent Middleware for Internet-of-Things}},
+	url = {https://newslabntu.github.io/wukong4iox/},
+	urldate = {2018-11-23},
+	year = {2016}
 }
-@book{Simon1996,
-	abstract = {3rd ed. Continuing his exploration of the organization of complexity and the science of design, this new edition of Herbert Simon's classic work on artificial intelligence adds a chapter that sorts out the current themes and tools -- chaos, adaptive systems, genetic algorithms -- for analyzing complexity and complex systems. There are updates throughout the book as well. These take into account important advances in cognitive psychology and the science of design while confirming and extending the book's basic thesis: that a physical symbol system has the necessary and sufficient means for intelligent action. The chapter "Economic Reality" has also been revised to reflect a change in emphasis in Simon's thinking about the respective roles of organizations and markets in economic systems. 1. Understanding the Natural and Artificial Worlds -- 2. Economic Rationality: Adaptive Artifice -- 3. The Psychology of Thinking: Embedding Artifice in Nature -- 4. Remembering and Learning: Memory as Environment for Thought -- 5. The Science of Design: Creating the Artificial -- 6. Social Planning: Designing the Evolving Artifact -- 7. Alternative Views of Complexity -- 8. The Architecture of Complexity: Hierarchic Systems.},
-	author = {Simon, Herbert A.},
-	isbn = {0262193744},
-	mendeley-groups = {Design Science},
-	pages = {231},
-	publisher = {MIT Press},
-	title = {{The sciences of the artificial}},
-	year = {1996}
+
+@inproceedings{Gia2015,
+	author = {Gia, Tuan Nguyen and Rahmani, Amir-Mohammad and Westerlund, Tomi and Liljeberg, Pasi and Tenhunen, Hannu},
+	booktitle = {2015 IEEE Sensors Applications Symposium (SAS)},
+	doi = {10.1109/SAS.2015.7133626},
+	isbn = {978-1-4799-6117-7},
+	mendeley-groups = {Error Recovery},
+	month = {apr},
+	pages = {1--6},
+	publisher = {IEEE},
+	title = {{Fault tolerant and scalable IoT-based architecture for health monitoring}},
+	url = {http://ieeexplore.ieee.org/document/7133626/},
+	year = {2015}
 }
-@misc{Hagelback2019,
-	author = {Hagelback, Johan},
-	booktitle = {LNU},
-	mendeley-groups = {Design Science},
-	title = {{Design Science - Degree Projects in Computer Science}},
-	url = {https://coursepress.lnu.se/subject/thesis-projects/design-science/},
-	urldate = {2019-02-11},
-	year = {2019}
+
+@article{Chen2013,
+	author = {Chen, Fengchao and Li, Ronglin},
+	doi = {10.1007/s11277-011-0453-x},
+	issn = {09296212},
+	journal = {Wireless Personal Communications},
+	keywords = {Energy consumption,Network lifetime,Sink node placement,Wireless sensor networks},
+	month = {jan},
+	number = {2},
+	pages = {303--319},
+	publisher = {Kluwer Academic Publishers},
+	title = {{Sink node placement strategies for wireless sensor networks}},
+	url = {http://link.springer.com/10.1007/s11277-011-0453-x},
+	volume = {68},
+	year = {2013}
 }
-@article{Nunamaker1990,
-	abstract = {Abstract:In this paper, the use of systems development as a methodology in information systems (is) research is described and defended. A framework to explain the nature of systems development as a research methodology in is research is proposed. Use of this methodology in the engineering field in general is compared with its use specifically in computer science and computer engineering. An integrated program for conducting is research that incorporates theory building, systems development, experimentation, and observation is proposed. Progress in several application domains is reviewed to provide a basis upon which to argue that systems development is a valid research methodology. A systems development research process is presented from a methodological perspective. Software engineering, which is the basic method of applying the systems development research methodology, is then discussed. It is the authors' belief that systems development and other research methodologies are complementary and that an int...},
-	author = {Nunamaker, Jay F. and Chen, Minder and Purdin, Titus D.M.},
-	doi = {10.1080/07421222.1990.11517898},
-%	issn = {0742-1222},
-	journal = {Journal of Management Information Systems},
-	keywords = {research methodology,software engineering,systems development},
-	mendeley-groups = {Design Science},
-	month = {12},
+
+@inproceedings{Misra2012,
+	author = {Misra, Sudip and Gupta, Anshima and Krishna, P. Venkata and Agarwal, Harshit and Obaidat, Mohammad S.},
+	booktitle = {2012 IEEE Wireless Communications and Networking Conference (WCNC)},
+	doi = {10.1109/WCNC.2012.6214484},
+	isbn = {978-1-4673-0437-5},
+	month = {apr},
+	pages = {815--819},
+	publisher = {IEEE},
+	title = {{An adaptive learning approach for fault-tolerant routing in Internet of Things}},
+	url = {http://ieeexplore.ieee.org/document/6214484/},
+	year = {2012}
+}
+
+@phdthesis{96b050fa82334e38993854b4a4714f90,
+	annote = {Exacte Wetenschappen Naam instelling promotie: Vrije Universiteit Amsterdam Naam instelling onderzoek: Vrije Universiteit Amsterdam},
+	author = {van der Kouwe, E},
+	school = {Vrije Universiteit Amsterdam},
+	title = {{Improving software fault injection}},
+	year = {2016}
+}
+
+@article{Sajid2016,
+	author = {Sajid, Anam and Abbas, Haider and Saleem, Kashif},
+	doi = {10.1109/ACCESS.2016.2549047},
+	issn = {2169-3536},
+	journal = {IEEE Access},
+	pages = {1375--1384},
+	title = {{Cloud-Assisted IoT-Based SCADA Systems Security: A Review of the State of the Art and Future Challenges}},
+	url = {http://ieeexplore.ieee.org/document/7445139/},
+	volume = {4},
+	year = {2016}
+}
+
+@article{Zarpelao2017,
+	author = {Zarpel{\~{a}}o, Bruno Bogaz and Miani, Rodrigo Sanches and Kawakani, Cl{\'{a}}udio Toshio and de Alvarenga, Sean Carlisto},
+	doi = {10.1016/J.JNCA.2017.02.009},
+	issn = {1084-8045},
+	journal = {Journal of Network and Computer Applications},
+	month = {apr},
+	pages = {25--37},
+	publisher = {Academic Press},
+	title = {{A survey of intrusion detection in Internet of Things}},
+	url = {https://www.sciencedirect.com/science/article/pii/S1084804517300802},
+	volume = {84},
+	year = {2017}
+}
+
+@article{Bertino2017,
+	author = {Bertino, Elisa and Islam, Nayeem},
+	doi = {10.1109/MC.2017.62},
+	issn = {0018-9162},
+	journal = {Computer},
+	month = {feb},
+	number = {2},
+	pages = {76--79},
+	title = {{Botnets and Internet of Things Security}},
+	url = {http://ieeexplore.ieee.org/document/7842850/},
+	volume = {50},
+	year = {2017}
+}
+
+@inproceedings{Kasinathan2013,
+	author = {Kasinathan, Prabhakaran and Pastrone, Claudio and Spirito, Maurizio A. and Vinkovits, Mark},
+	booktitle = {2013 IEEE 9th International Conference on Wireless and Mobile Computing, Networking and Communications (WiMob)},
+	doi = {10.1109/WiMOB.2013.6673419},
+	isbn = {978-1-4799-0428-0},
+	issn = {2160-4886},
+	keywords = {6LoWPAN,Denial-of-Service Detection,Internet of Things,Intrusion Detection Systems,Penetration Testing},
+	month = {oct},
+	pages = {600--607},
+	publisher = {IEEE},
+	title = {{Denial-of-Service detection in 6LoWPAN based Internet of Things}},
+	url = {http://ieeexplore.ieee.org/document/6673419/},
+	year = {2013}
+}
+
+@book{Provos2008,
+	author = {Provos, Niels. and Holz, Thorsten.},
+	isbn = {0321336321},
+	pages = {440},
+	publisher = {Addison-Wesley},
+	title = {{Virtual honeypots : from botnet tracking to intrusion detection}},
+	year = {2008}
+}
+
+@book{Daniel1982,
+	author = {Daniel, Donald C. (Donald Charles) and Herbig, Katherine L. (Katherine Lydigsen)},
+	isbn = {9781483190068},
+	pages = {378},
+	publisher = {Pergamon Press},
+	title = {{Strategic military deception: Pergamon policy studies on security affairs}},
+	year = {1982}
+}
+
+@inproceedings{Yu2015,
+	address = {New York, New York, USA},
+	author = {Yu, Tianlong and Sekar, Vyas and Seshan, Srinivasan and Agarwal, Yuvraj and Xu, Chenren},
+	booktitle = {Proceedings of the 14th ACM Workshop on Hot Topics in Networks - HotNets-XIV},
+	doi = {10.1145/2834050.2834095},
+	isbn = {9781450340472},
+	pages = {1--7},
+	publisher = {ACM Press},
+	title = {{Handling a trillion (unfixable) flaws on a billion devices}},
+	url = {http://dl.acm.org/citation.cfm?doid=2834050.2834095},
+	year = {2015}
+}
+
+@article{La2016,
+	author = {La, Quang Duy and Quek, Tony Q. S. and Lee, Jemin and Jin, Shi and Zhu, Hongbo},
+	doi = {10.1109/JIOT.2016.2547994},
+	issn = {2327-4662},
+	journal = {IEEE Internet of Things Journal},
+	month = {dec},
+	number = {6},
+	pages = {1025--1035},
+	title = {{Deceptive Attack and Defense Game in Honeypot-Enabled Networks for the Internet of Things}},
+	url = {http://ieeexplore.ieee.org/document/7442780/},
+	volume = {3},
+	year = {2016}
+}
+
+@misc{Colburn2017,
+	author = {Colburn, Ken},
+	booktitle = {Wtop},
+	title = {{Smart firewalls protect the Internet of Things — which are the best? | WTOP}},
+	url = {https://wtop.com/tech/2017/10/smart-firewalls-protect-internet-things-best/},
+	urldate = {2018-11-23},
+	year = {2017}
+}
+
+@inproceedings{Gupta2017,
+	author = {Gupta, Naman and Naik, Vinayak and Sengupta, Srishti},
+	booktitle = {2017 9th International Conference on Communication Systems and Networks (COMSNETS)},
+	doi = {10.1109/COMSNETS.2017.7945418},
+	isbn = {978-1-5090-4250-0},
+	month = {jan},
+	pages = {411--412},
+	publisher = {IEEE},
+	title = {{A firewall for Internet of Things}},
+	url = {http://ieeexplore.ieee.org/document/7945418/},
+	year = {2017}
+}
+
+@inproceedings{Brachmann2012,
+	author = {Brachmann, Martina and Keoh, Sye Loong and Morchon, Oscar Garcia and Kumar, Sandeep S.},
+	booktitle = {2012 21st International Conference on Computer Communications and Networks (ICCCN)},
+	doi = {10.1109/ICCCN.2012.6289292},
+	isbn = {978-1-4673-1544-9},
+	month = {jul},
+	pages = {1--5},
+	publisher = {IEEE},
+	title = {{End-to-End Transport Security in the IP-Based Internet of Things}},
+	url = {http://ieeexplore.ieee.org/document/6289292/},
+	year = {2012}
+}
+
+@inproceedings{Altolini2013,
+	author = {Altolini, Diego and Lakkundi, Vishwas and Bui, Nicola and Tapparello, Cristiano and Rossi, Michele},
+	booktitle = {2013 9th International Wireless Communications and Mobile Computing Conference (IWCMC)},
+	doi = {10.1109/IWCMC.2013.6583680},
+	isbn = {978-1-4673-2480-9},
+	month = {jul},
+	pages = {919--925},
+	publisher = {IEEE},
+	title = {{Low power link layer security for IoT: Implementation and performance analysis}},
+	url = {http://ieeexplore.ieee.org/document/6583680/},
+	year = {2013}
+}
+
+@inproceedings{Babar2011,
+	author = {Babar, Sachin and Stango, Antonietta and Prasad, Neeli and Sen, Jaydip and Prasad, Ramjee},
+	booktitle = {2011 2nd International Conference on Wireless Communication, Vehicular Technology, Information Theory and Aerospace {\&} Electronic Systems Technology (Wireless VITAE)},
+	doi = {10.1109/WIRELESSVITAE.2011.5940923},
+	isbn = {978-1-4577-0786-5},
+	month = {feb},
+	pages = {1--5},
+	publisher = {IEEE},
+	title = {{Proposed embedded security framework for Internet of Things (IoT)}},
+	url = {http://ieeexplore.ieee.org/document/5940923/},
+	year = {2011}
+}
+
+@incollection{Babar2010,
+	author = {Babar, Sachin and Mahalle, Parikshit and Stango, Antonietta and Prasad, Neeli and Prasad, Ramjee},
+	booktitle = {Communications in Computer and Information Science},
+	doi = {10.1007/978-3-642-14478-3_42},
+	isbn = {3642144772},
+	issn = {18650929},
+	keywords = {Internet of Things,Privacy,Security,authentication,authorization,trust},
+	pages = {420--429},
+	publisher = {Springer, Berlin, Heidelberg},
+	title = {{Proposed security model and threat taxonomy for the Internet of Things (IoT)}},
+	url = {http://link.springer.com/10.1007/978-3-642-14478-3_42},
+	volume = {89 CCIS},
+	year = {2010}
+}
+
+@article{he2017towards,
+	title={Towards automated log parsing for large-scale log data analysis},
+	author={He, Pinjia and Zhu, Jieming and He, Shilin and Li, Jian and Lyu, Michael R},
+	journal={IEEE Transactions on Dependable and Secure Computing},
+	volume={15},
+	number={6},
+	pages={931--944},
+	year={2017},
+	publisher={IEEE}
+}
+
+@article{Du2017,
+	author = {Du, Min and Li, Feifei},
+	doi = {10.1109/ICDM.2016.160},
+	isbn = {9781509054725},
+	issn = {15504786},
+	journal = {Proceedings - IEEE International Conference on Data Mining, ICDM},
+	pages = {859--864},
+	title = {{Spell: Streaming parsing of system event logs}},
+	year = {2017}
+}
+
+@misc{el1,
+	abstract = {Event Log Generated in Windows 10 Upgrade},
+	keywords = {event log sample},
+	mendeley-tags = {event log sample},
+	title = {{Event Log Generated by Windows in Upgrade}},
+	url = {https://pastebin.com/8gKGJyY3},
+	urldate = {2018-08-08}
+}
+
+@misc{el2,
+	abstract = {Sample event log generated by yED Tool.},
+	keywords = {event log sample},
+	mendeley-tags = {event log sample},
+	title = {{yED Installation Log}},
+	url = {https://pastebin.com/ccC5xDqX},
+	urldate = {2018-08-08}
+}
+
+@misc{el3,
+	abstract = {Sample event log retrieved from Visual Studio},
+	keywords = {event log sample},
+	mendeley-tags = {event log sample},
+	title = {{Visual Studio Event Log Sample}},
+	url = {https://pastebin.com/2ycA7Fa4},
+	urldate = {2018-08-08}
+}
+
+@misc{ProcessMiningGroupMathAndCSdepartment,
+	author = {{Process Mining Group, Math{\&}CS department}, Eindhoven University of Technology.},
+	title = {{Event logs and models}},
+	url = {http://www.processmining.org/event_logs_and_models_used_in_book},
+	urldate = {2018-08-18}
+}
+
+
+@article{Vossen2012,
+	author = {Vossen, Gottfried},
+	doi = {10.1016/j.is.2011.10.006},
+	isbn = {3642281079},
+	issn = {03064379},
+	journal = {Information Systems},
 	number = {3},
-	pages = {89--106},
-	publisher = {Routledge},
-	title = {{Systems Development in Information Systems Research}},
-%	url = {https://www.tandfonline.com/doi/full/10.1080/07421222.1990.11517898},
-	volume = {7},
-	year = {1990}
+	pages = {288--290},
+	pmid = {18487736},
+	publisher = {Elsevier},
+	title = {{The process mining manifesto - An interview with Wil van der Aalst}},
+	url = {http://dx.doi.org/10.1016/j.is.2011.10.006},
+	volume = {37},
+	year = {2012}
 }
-@misc{Waterworth2018,
-	author = {Waterworth, Steve},
-	booktitle = {Instana},
-	mendeley-groups = {Background},
-	title = {{Introduction to Serverless Computing}},
-	url = {https://www.instana.com/blog/introduction-to-serverless-computing/},
-	urldate = {2019-02-16},
-	year = {2018}
+
+@misc{Aalst2015,
+	author = {van der Aalst, Wil},
+	keywords = {process mining},
+	mendeley-tags = {process mining},
+	title = {{Process Mining Data Science in Action}},
+	url = {https://www.youtube.com/watch?v=kIeLaNzw9hI&t=704s},
+	urldate = {2018-07-06},
+	year = {2015}
 }
-@INPROCEEDINGS{Sabelfeld2005, 
-	author={A. {Sabelfeld} and D. {Sands}}, 
-	booktitle={18th IEEE Computer Security Foundations Workshop (CSFW'05)}, 
-	title={Dimensions and principles of declassification}, 
-	year={2005}, 
-	volume={}, 
-	number={}, 
-	pages={255-269}, 
-	keywords={security of data;declassification dimensions;declassification principles;sensitive information declassification;information release mechanism;secret information extraction;Information security;Remuneration;Data mining;Roads;Protocols;Credit cards;Databases;Computer science;World Wide Web;Lead}, 
-	doi={10.1109/CSFW.2005.15}, 
-	ISSN={1063-6900}, 
-	month={June},
+
+@article{VanDerAalst2012a,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1011.1669v3},
+	author = {{Van Der Aalst}, Wil},
+	doi = {10.1145/2240236.2240257},
+	eprint = {arXiv:1011.1669v3},
+	isbn = {978-3-642-19344-6},
+	issn = {00010782},
+	journal = {Communications of the ACM},
+	number = {8},
+	pages = {76},
+	pmid = {18487736},
+	title = {{Process mining}},
+	url = {http://dl.acm.org/citation.cfm?doid=2240236.2240257},
+	volume = {55},
+	year = {2012}
 }
-@INPROCEEDINGS{Gougen1982, 
-	author={J. A. {Goguen} and J. {Meseguer}}, 
-	booktitle={1982 IEEE Symposium on Security and Privacy}, 
-	title={Security Policies and Security Models}, 
-	year={1982}, 
-	volume={}, 
-	number={}, 
-	pages={11-11}, 
-	keywords={Computational modeling;Automata;Finite element methods;Mathematical model;Data models;Computers;Message systems}, 
-	doi={10.1109/SP.1982.10014}, 
-	ISSN={1540-7993}, 
-	month={April},
+
+@article{Rolland1998,
+	author = {Rolland, Colette},
+	doi = {10.1007/BFb0054216>},
+	isbn = {9783540645566},
+	journal = {Lecture Notes in Computer Science},
+	number = {c},
+	pages = {1--24},
+	title = {{A Comprehensive View of Process Engineering}},
+	url = {http://www.springerlink.com/index/XVER7FV40KKXMXJG.pdf},
+	volume = {1413},
+	year = {1998}
 }
-@article{Myers2000,
-	author = {Myers, Andrew C. and Liskov, Barbara},
-	title = {Protecting Privacy Using the Decentralized Label Model},
-	journal = {ACM Trans. Softw. Eng. Methodol.},
-	issue_date = {Oct. 2000},
-	volume = {9},
-	number = {4},
-	month = oct,
-	year = {2000},
-	issn = {1049-331X},
-	pages = {410--442},
-	numpages = {33},
-	url = {http://doi.acm.org/10.1145/363516.363526},
-	doi = {10.1145/363516.363526},
-	acmid = {363526},
-	publisher = {ACM},
-	address = {New York, NY, USA},
-	keywords = {confidentiality, declassification, downgrading, end-to-end, information flow controls, integrity, lattice, policies, principals, roles, type checking},
-} 
-@inproceedings{Krohn2007,
-	author = {Krohn, Maxwell and Yip, Alexander and Brodsky, Micah and Cliffer, Natan and Kaashoek, M. Frans and Kohler, Eddie and Morris, Robert},
-	title = {Information Flow Control for Standard OS Abstractions},
-	booktitle = {Proceedings of Twenty-first ACM SIGOPS Symposium on Operating Systems Principles},
-	series = {SOSP '07},
-	year = {2007},
-	isbn = {978-1-59593-591-5},
-	location = {Stevenson, Washington, USA},
-	pages = {321--334},
-	numpages = {14},
-	url = {http://doi.acm.org/10.1145/1294261.1294293},
-	doi = {10.1145/1294261.1294293},
-	acmid = {1294293},
-	publisher = {ACM},
-	address = {New York, NY, USA},
-	keywords = {DIFC, decentralized information flow control, endpoints, reference monitor, system call interposition, web services},
-} 
-@INPROCEEDINGS{Shroff2007, 
-	author={P. {Shroff} and S. {Smith} and M. {Thober}}, 
-	booktitle={20th IEEE Computer Security Foundations Symposium (CSF'07)}, 
-	title={Dynamic Dependency Monitoring to Secure Information Flow}, 
-	year={2007}, 
-	volume={}, 
-	number={}, 
-	pages={203-217}, 
-	keywords={security of data;dynamic dependency monitoring;information flow security;run-time information flow monitoring;Runtime;Information security;Data security;Information analysis;Computerized monitoring;Computer security;Computer science;Concrete;Java;Terminology}, 
-	doi={10.1109/CSF.2007.20}, 
-	ISSN={1063-6900}, 
-	month={July},
-}
-@INPROCEEDINGS{Russo2010, 
-	author={A. {Russo} and A. {Sabelfeld}}, 
-	booktitle={2010 23rd IEEE Computer Security Foundations Symposium}, 
-	title={Dynamic vs. Static Flow-Sensitive Security Analysis}, 
-	year={2010}, 
-	volume={}, 
-	number={}, 
-	pages={186-199}, 
-	keywords={data flow analysis;security of data;system monitoring;static flow-sensitive security analysis;dynamic flow-sensitive security analysis;flow-sensitive static information-flow analysis;flow-insensitive static analysis;secure program;dynamic information-flow control;dynamic information-flow monitor;security semantics;information flow;security guarantee;termination-insensitive noninterference;Monitoring;Security;Semantics;Instruments;Sensitivity;Context;Performance analysis}, 
-	doi={10.1109/CSF.2010.20}, 
-	ISSN={1063-6900}, 
-	month={July},
-}
-@InProceedings{Guernic2007,
-	author="Le Guernic, Gurvan
-	and Banerjee, Anindya
-	and Jensen, Thomas
-	and Schmidt, David A.",
-	editor="Okada, Mitsu
-	and Satoh, Ichiro",
-	title="Automata-Based Confidentiality Monitoring",
-	booktitle="Advances in Computer Science - ASIAN 2006. Secure Software and Related Issues",
-	year="2007",
+
+@Inbook{VanderAalst2011,
+	author="van der Aalst, Wil M. P.",
+	title="Process Modeling and Analysis",
+	bookTitle="Process Mining: Discovery, Conformance and Enhancement of Business Processes",
+	year="2011",
 	publisher="Springer Berlin Heidelberg",
 	address="Berlin, Heidelberg",
-	pages="75--89",
-	abstract="Non-interference is typically used as a baseline security policy to formalize confidentiality of secret information manipulated by a program. In contrast to static checking of non-interference, this paper considers dynamic, automaton-based, monitoring of information flow for a single execution of a sequential program. The monitoring mechanism is based on a combination of dynamic and static analyses. During program execution, abstractions of program events are sent to the automaton, which uses the abstractions to track information flows and to control the execution by forbidding or editing dangerous actions. The mechanism proposed is proved to be sound, to preserve executions of well-typed programs (in the security type system of Volpano, Smith and Irvine), and to preserve some safe executions of ill-typed programs.",
-	isbn="978-3-540-77505-8"
+	pages="29--57",
+	isbn="978-3-642-19345-3",
+	doi="10.1007/978-3-642-19345-3_2",
+	url="https://doi.org/10.1007/978-3-642-19345-3_2"
 }
-@article{BERTHIER201446,
-	title = "Discrete Controller Synthesis for Infinite State Systems with ReaX",
-	journal = "IFAC Proceedings Volumes",
-	volume = "47",
-	number = "2",
-	pages = "46 - 53",
-	year = "2014",
-	note = "12th IFAC International Workshop on Discrete Event Systems (2014)",
-	issn = "1474-6670",
-	doi = "https://doi.org/10.3182/20140514-3-FR-4046.00099",
-	url = "http://www.sciencedirect.com/science/article/pii/S1474667015373791",
-	author = "Nicolas Berthier and Hervé Marchand",
-	keywords = "Control synthesis, automata with infinite variables, synchronous paradigm",
-	abstract = "In this paper, we investigate the control of infinite reactive synchronous systems modeled by arithmetic symbolic transition systems for safety properties. We provide effective algorithms allowing to solve the safety control problem, and report on experiments based on ReaX, our tool implementing these algorithms."
+
+@Inbook{VanderAalst2011a,
+	author="van der Aalst, Wil M. P.",
+	title="Process Discovery: An Introduction",
+	bookTitle="Process Mining: Discovery, Conformance and Enhancement of Business Processes",
+	year="2011",
+	publisher="Springer Berlin Heidelberg",
+	address="Berlin, Heidelberg",
+	pages="125--156",
+	isbn="978-3-642-19345-3",
+	doi="10.1007/978-3-642-19345-3_5",
+	url="https://doi.org/10.1007/978-3-642-19345-3_5"
+}
+
+@Inbook{VanderAalst2011d,
+	author="van der Aalst, Wil M. P.",
+	title="Getting the Data",
+	bookTitle="Process Mining: Discovery, Conformance and Enhancement of Business Processes",
+	year="2011",
+	publisher="Springer Berlin Heidelberg",
+	address="Berlin, Heidelberg",
+	pages="95--123",
+	isbn="978-3-642-19345-3",
+	doi="10.1007/978-3-642-19345-3_4",
+	url="https://doi.org/10.1007/978-3-642-19345-3_4"
+}
+
+
+
+@book{Aalsta,
+	author = {van der Aalst, Wil and Stahl, Christian},
+	isbn = {9780262015387},
+	pages = {386},
+	title = {{Modeling business processes : a petri net-oriented approach}},
+	url = {https://mitpress.mit.edu/books/modeling-business-processes}
+}
+
+@book{Jensen2009,
+	address = {Berlin},
+	author = {Jensen, Kurt and Kristensen, Lars M},
+	doi = {10.1007/b95112},
+	isbn = {9783642002830},
+	publisher = {Springer},
+	title = {{Coloured Petri Nets - Modelling and Validation of Concurrent Systems}},
+	url = {https://www.springer.com/us/book/9783642002830},
+	year = {2009}
+}
+
+@book{Reisig1998a,
+	address = {Berlin, Heidelberg},
+	doi = {10.1007/3-540-65306-6},
+	editor = {Reisig, Wolfgang and Rozenberg, Grzegorz},
+	isbn = {978-3-540-65306-6},
+	publisher = {Springer Berlin Heidelberg},
+	series = {Lecture Notes in Computer Science},
+	title = {{Lectures on Petri Nets I: Basic Models}},
+	url = {http://link.springer.com/10.1007/3-540-65306-6},
+	volume = {1491},
+	year = {1998}
+}
+
+@book{Reisig1998,
+	author = {Reisig, Wolfgang. and Rozenberg, Grzegorz.},
+	isbn = {9783540494423},
+	publisher = {Springer-Verlag},
+	title = {{Lectures on Petri Nets I: Basic Models : Advances in Petri Nets}},
+	year = {1998}
+}
+
+@incollection{VanderAalst2002,
+	author = {van der Aalst, Wil M. P.},
+	doi = {10.1007/3-540-48068-4_1},
+	pages = {1--22},
+	publisher = {Springer, Berlin, Heidelberg},
+	title = {{Making Work Flow: On the Application of Petri Nets to Business Process Management}},
+	url = {http://link.springer.com/10.1007/3-540-48068-4_1},
+	year = {2002}
+}
+
+@incollection{Manoj2012,
+	author = {Manoj, G. and {Samson Immmanuel}, J. and Divya, P. S. and Haran, A. P.},
+	doi = {10.1007/978-3-642-35594-3_40},
+	month = {dec},
+	pages = {285--292},
+	publisher = {Springer, Berlin, Heidelberg},
+	title = {{Modelling of System Configuration and Reconfiguration for IMS}},
+	url = {http://link.springer.com/10.1007/978-3-642-35594-3_40},
+	year = {2012}
+}
+
+@article{Petri2008,
+	author = {Petri, Carl and Reisig, Wolfgang},
+	doi = {10.4249/scholarpedia.6477},
+	issn = {1941-6016},
+	journal = {Scholarpedia},
+	number = {4},
+	pages = {6477},
+	title = {{Petri net}},
+	url = {http://www.scholarpedia.org/article/Petri_net},
+	volume = {3},
+	year = {2008}
+}
+
+
+
+@misc{Hofstede,
+	author = {ter Hofstede, Arthur and van der Aalst, Wil},
+	keywords = {workflow,yawl},
+	mendeley-tags = {workflow,yawl},
+	title = {{Workflow Patterns}},
+	url = {http://www.workflowpatterns.com./},
+	urldate = {2018-09-13}
+}
+
+@article{VanderAalst2003,
+	author = {van der Aalst, W.M.P. and ter Hofstede, A.H.M. and Kiepuszewski, B. and Barros, A.P.},
+	doi = {10.1023/A:1022883727209},
+	issn = {09268782},
+	journal = {Distributed and Parallel Databases},
+	number = {1},
+	pages = {5--51},
+	publisher = {Kluwer Academic Publishers},
+	title = {{Workflow Patterns}},
+	url = {http://link.springer.com/10.1023/A:1022883727209},
+	volume = {14},
+	year = {2003}
+}
+
+@incollection{Repa2013,
+	author = {Řepa, Václav},
+	doi = {10.1007/978-3-642-40823-6_7},
+	pages = {78--90},
+	publisher = {Springer, Berlin, Heidelberg},
+	title = {{Cooperation of Business Processes – A Central Point of the Content, Technical, and Human Aspects of Organization Management}},
+	url = {http://link.springer.com/10.1007/978-3-642-40823-6_7},
+	year = {2013}
+}
+
+@book{Scheer1994,
+	address = {Berlin, Heidelberg},
+	author = {Scheer, August-Wilhelm},
+	doi = {10.1007/978-3-642-79142-0},
+	isbn = {978-3-642-79144-4},
+	publisher = {Springer Berlin Heidelberg},
+	title = {{Business Process Engineering}},
+	url = {http://link.springer.com/10.1007/978-3-642-79142-0},
+	year = {1994}
+}
+
+@article{Mendling2006,
+	author = {Mendling, Jan and Nüttgens, Markus},
+	doi = {10.1007/s10257-005-0026-1},
+	issn = {1617-9846},
+	journal = {Information Systems and e-Business Management},
+	month = {jul},
+	number = {3},
+	pages = {245--263},
+	publisher = {Springer-Verlag},
+	title = {{EPC markup language (EPML): an XML-based interchange format for event-driven process chains (EPC)}},
+	url = {http://link.springer.com/10.1007/s10257-005-0026-1},
+	volume = {4},
+	year = {2006}
+}
+
+@misc{Singh2019,
+	title         = {{Smart Troubleshooting Survey Resources}},
+	author        = {Singh, Prasannjeet and Caporuscio, Mauro and Flammini, Francesco and Khakpour, Narges},
+	year          = 2019,
+	booktitle     = {Github},
+	url           = {https://github.com/prasannjeet/Smart-Troubleshooting-Survey-Resources},
+	abstract      = {This repository contains all the resources from the Survey: Smart-Troubleshooting of Connected Cyber-Physical Systems: State-of-the-art, Challenges and Open Issues"},
+	keywords      = {replication package}
+}
+
+@article{Silva2008,
+	author = {Silva, Luis Moura},
+	doi = {10.1109/NCA.2008.57},
+	isbn = {9780769531922},
+	journal = {2008 Seventh IEEE International Symposium on Network Computing and Applications},
+	pages = {144--151},
+	title = {{Comparing Error Detection Techniques for Web Applications: An Experimental Study}},
+	url = {http://ieeexplore.ieee.org/document/4579650/},
+	year = {2008}
 }
