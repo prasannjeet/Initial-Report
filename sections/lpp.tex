@@ -82,7 +82,16 @@ Since process mining primarily deals with event logs, it is assumed that the eve
 
 \textit{Enhancement:} As the word says, here the objective is to improve the existing process model using additional information recorded in the event log.
 
-Figure \ref{fig:ProcessMiningInputOutput} describes the three types of process mining in terms of the input and output. Process Mining also covers different perspective, based on the goal that we need to achieve, these are the control-flow perspective, organizational perspective, case perspective and the time perspective. 
+Figure \ref{fig:ProcessMiningInputOutput} describes the three types of process mining in terms of the input and output. Process Mining also covers different perspective, based on the goal that we need to achieve, these are the control-flow perspective, organizational perspective, case perspective and the time perspective. While Process Discovery still remains the most popular type of process mining, it's usage is constantly declining, where as the usage of the other two, i.e. Conformance Checking and Enhancement is increasing and is expected to increase in the future as well\ref{Gartner2019} (Figure \ref{fig:Adoption}).
+
+\begin{figure}[h]
+	%\begin{framed}
+	\centering
+	\includegraphics[width=\columnwidth]{images/adoption.png}
+	\caption{Projected adoption of basic process mining types.}
+	\label{fig:Adoption}
+	%\end{framed}
+\end{figure}
 
 As can be seen in various machine learning algorithms, a common approach to solve a problem is by assuming an appropriate model initially (by observing the dataset) and then finding the best set of hyper-parameters; however, in Process Mining, we start from a bunch of behavior (event logs, in our case) and automatically construct the model based on the logs. This is because more often than not, there are no appropriate existing models, or the models are flawed or incomplete. Reference\cite{Rolland1998} describes process model which is \textit{roughly an anticipation of what the process will look like}. 
 
